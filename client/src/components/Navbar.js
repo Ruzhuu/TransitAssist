@@ -11,7 +11,7 @@ const Navbar = () => {
         isAuthenticated ? (
           <div>
             <button
-              className='p-3 m-3 bg-green-600'
+              className='p-3 m-3 bg-red-600'
               onClick={() => logout({ returnTo: window.location.origin })}
             >
               Log Out
